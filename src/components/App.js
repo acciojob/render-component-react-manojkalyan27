@@ -1,9 +1,10 @@
 import React, {Component, useState} from "react";
-import '../styles/App.css';
+import styles from "./render.module.css"
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <>            <p className={styles.text}>I am learning React. My life is getting better.</p>        
+        </>
   )
 }
 
